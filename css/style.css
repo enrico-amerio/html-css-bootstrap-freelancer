@@ -1,0 +1,8 @@
+.debug{
+  background-color: rgba(0, 0, 255, 0.3);
+  border: 1px solid black;
+}
+.my-container{
+  width:80%;
+  margin: 0 auto;
+}
