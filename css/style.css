@@ -41,7 +41,6 @@ body{
   background-color: white;
   color: #2c3e50;
 }
-
 .custom-form input,
 .custom-form textarea {
   border-top: none;
@@ -49,23 +48,28 @@ body{
   border-left: none;
   border-radius: 0;
 }
-
 .custom-form input:focus,
 .custom-form textarea:focus {
   box-shadow: none;
 }
-
 .custom-form input::placeholder,
 .custom-form textarea::placeholder {
   color: #2b3d4f;
   
 } 
-
 .custom-button {
   background-color: #1abc9c;
   border: none;
 }
-
 .custom-button:hover {
   background-color: #137964;
+}
+.social{
+  border-radius: 100%;
+  width: 40px;
+  aspect-ratio: 1/1;
+  
+}
+.custom-bg-dark{
+  background-color: #3a546d;
 }
