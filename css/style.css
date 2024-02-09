@@ -27,7 +27,7 @@ body{
   width: 15rem;
 }
 .custom-jumbotron{
-  padding-top: calc(6rem + 90px);
+  padding-top: 120px;
 }
 .custom-green{
   background-color: rgb(26, 188, 156);
