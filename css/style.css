@@ -23,6 +23,10 @@ body{
   background-color: white;
   
 }
+.custom-line.dark{
+  background-color: #2c3e50;
+  
+}
 .custom-avatar{
   width: 15rem;
 }
@@ -32,4 +36,8 @@ body{
 .custom-green{
   background-color: rgb(26, 188, 156);
   color:white;
+}
+.custom-light{
+  background-color: white;
+  color: #2c3e50;
 }
