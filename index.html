@@ -4,43 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Freelancer</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css' integrity='sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==' crossorigin='anonymous'/>
+  <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-  <header class="bg-danger ">
-    <div class="container">
-      <div class="row debug">
-        <div class="col-8 col-md-4  debug">
-          <div>START BOOTSTRAP</div>
-        </div>
-        <div class="col-4 col-md-8 text-end debug">
-          <div class="d-md-none">H</div>
-          <nav class="d-none d-md-block">
-            <a href="#">link</a>
-            <a href="#">link</a>
-            <a href="#">link</a>
-          </nav>
+  <header>
+    <nav class="custom-bg navbar navbar-expand-lg py-4 position-fixed w-100  " data-bs-theme="dark">
+      <div class="container ">
+
+        <a class="navbar-brand text-uppercase fs-4 " href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase fw-bold ">
+          
+            <li class="nav-item">
+              <a class="nav-link  " aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
   </header>
   <main>
-    <section class="bg-primary ">
+    <section class="custom-jumbotron custom-green">
       <div class="container">
         <div class="row">
-          <div class="col debug text-center ">
-            <div><img src="" alt="">img</div>
-            <h1>START</h1>
-            <div>star</div>
-            <p>myself</p>
+          <div class="col  text-center ">
+            <div><img src="img/avatar.svg" alt="avatar" class="mb-3 custom-avatar "></div>
+            <h1 class="mb-3 ">START BOOTSTRAP</h1>
+            <div class="d-flex align-items-center justify-content-center mb-3">
+                <div class="custom-line white"></div>
+                <div><i class="fas fa-star"></i></div>
+                <div class="custom-line white"></div>
+            </div>
+            <p class="mb-3 ">GRAFIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
           </div>
         </div>
       </div>
     </section>
     <section class="bg-light text-center ">
-      <div class="container">
+      <div class="container debug">
         <h2>Port</h2>
         <div>star</div>
         <div class="row ">
@@ -54,7 +69,7 @@
       </div>
     </section>
     <section class="bg-danger text-center ">
-      <div class="my-container debug">
+      <div class="custom-container debug">
         <div class="container-fluid">
           <h2>about</h2>
           <div>star</div>
@@ -66,11 +81,11 @@
         </div>
       </div>
     </section>
-    <div class="my-container text-center debug">
+    <div class="custom-container text-center debug">
       <div class="container-fluid">
         <h2>contact</h2>
         <div>star</div>
-        <div class="row text-start">
+        <div class="row text-start debug">
           <div class="col-12">
            <label for="">name</label>
            <br>
