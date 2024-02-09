@@ -80,3 +80,9 @@ footer p a{
 color: #1abc9c;
 text-decoration: none;
 }
+a.anchor {
+  display: block;
+  position: relative;
+  top: -94px;
+  visibility: hidden;
+}
